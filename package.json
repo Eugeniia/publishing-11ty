@@ -1,0 +1,21 @@
+{
+  "name": "publishing-11ty",
+  "version": "1.0.0",
+  "description": "11ty Publishing Example",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "author": "Evgeniia Golovina",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.4"
+  },
+  "main": ".eleventy.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": []
+}
